@@ -9,9 +9,7 @@ export class Otp extends Component {
     onOtpClick = () =>{
         this.props.onOtpClick()
     }
-    /*<div className="signup-button" onClick={this.onOtpClick}>
-                    <p>Enter</p>
-                    </div>*/
+    
     render() {
         return (
             <div className="otp-back">

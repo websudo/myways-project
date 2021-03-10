@@ -10,9 +10,7 @@ export class Getstarted extends Component {
     onSignupClick = () =>{
         this.props.onSignupClick();
     }
-    /*<div className="signup-button" onClick={this.onSignupClick}>
-                        <p>Sign Up</p>
-                    </div>*/
+    
     render() {
         return (
             <div className="signup-back">

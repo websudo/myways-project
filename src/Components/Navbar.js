@@ -8,7 +8,7 @@ export class Navbar extends Component {
         if(document.querySelector(".dropdown-off") ){
             document.querySelector(".dropdown-off").setAttribute("class","dropdown-on");
         }
-        else if (document.querySelector(".dropdown-on")){
+        else {
             document.querySelector(".dropdown-on").setAttribute("class","dropdown-off");
         }
 
@@ -32,12 +32,7 @@ export class Navbar extends Component {
         }
     }
 
-    /*<div className="ele instant"> 
-                    <div className="image">
-                        <img src="Instant logo.png"></img>
-                    </div>
-                    <div className="text">Instant Apply</div> 
-                </div>*/
+   
     render() {
 
         return (
