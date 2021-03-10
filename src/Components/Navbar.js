@@ -4,7 +4,7 @@ export class Navbar extends Component {
     
     
     handleClick = () => {
-        console.log("CLicked")
+        
         if(document.querySelector(".dropdown-off") ){
             document.querySelector(".dropdown-off").setAttribute("class","dropdown-on");
         }
