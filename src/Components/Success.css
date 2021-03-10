@@ -1,0 +1,50 @@
+
+.success-back{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background : rgb(33,32,32,0.6)
+}
+.success-card{
+    position: absolute;
+    top: 112px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 676px;
+    height: 577px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    
+}
+
+.success-image{
+    margin-top: 219.05px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 73px;
+    height: 73px;
+}
+
+.success-title {
+    margin-top: 34.96px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+}
+
+@media (max-width : 414px){
+    .success-card{
+        width: 400px;
+    }
+}

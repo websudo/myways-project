@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+.greet-head{
+    margin-top: 141px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 648px;
+    height: 56px;
+    text-align: center;
+    font: normal normal bold 41px/56px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.greet-content{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    width: 1008px;
+    height: 76px;
+    text-align: center;
+    font: normal normal normal 28px/38px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.greet-button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
+    width: 236px;
+    height: 53px;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.greet-button p{
+    width: 138px;
+    padding: 10px 49px;
+    height: 33px;
+    
+    font: normal normal bold 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+@media (max-width : 1280px){
+    .greet-head{
+        font-size: 30px;
+    }
+    .greet-content{
+        font-size: 17px;
+        width: 800px;
+    }
+}
+
+
+@media (max-width : 414px){
+    .greet-head{
+        font-size: 20px;
+        width: 400px;
+    }
+    .greet-content{
+        font-size: 17px;
+        width: 400px;
+    }
+}
+
+@media (max-width : 375px){
+    .greet-head{
+        font-size: 20px;
+        width: 320px;
+    }
+    .greet-content{
+        font-size: 17px;
+        width: 320px;
+        margin-bottom: 100px;
+    }
+}
+
