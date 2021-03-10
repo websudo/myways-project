@@ -43,7 +43,7 @@ export class Navbar extends Component {
                     <div></div>
                 </div>
                 <div className="hamburger-menu hamburger-menu-off">
-                <div className="ele path " >For You <img src="Path 2.png" ></img>
+                <div className="ele path " onClick={this.handleClick}>For You <img src="Path 2.png" ></img>
                         <div className="dropdown-off">
                             <a href="#">Find matching internships</a><br></br>
                             <a href="#">Hire right talent</a><br></br>
